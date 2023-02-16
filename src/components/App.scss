@@ -24,5 +24,9 @@ h1 {
     display: grid;
     text-align: center;
     justify-content: center;
+
+    .title {
+        font-size: 5em !important;
+    }
 }
 

@@ -8,7 +8,7 @@ function Card(props) {
     const [lastClickedCard, setLastClickedCard] = useState([]);
     const [highScore, setHighScore]  = useState(0);
 
-    useEffect(() =>{
+     useEffect(() =>{
         function cardInfoFunction (){
             setCardInfo(data.cards.map(card => ({
                 id: card.id,
@@ -18,6 +18,11 @@ function Card(props) {
         }
         cardInfoFunction()
     }, [])
+
+    useEffect(() => {
+        const highscore = localStorage.getItem('highscore');
+        setHighScore(highscore || 0);
+      }, []);
 
     const handleCardClick = (id) => {
         if (lastClickedCard.includes(id)) {
@@ -29,6 +34,7 @@ function Card(props) {
           setLastClickedCard([...lastClickedCard, id]); // Add the clicked card's ID to the array
           if (newScore > highScore) {
             setHighScore(newScore); // Update high score if current score is higher
+            localStorage.setItem('highscore', newScore) //  Set the highScore to localStorage
           }
         }        
       }

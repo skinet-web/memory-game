@@ -19,4 +19,7 @@ h1 {
   display: grid;
   text-align: center;
   justify-content: center;
+}
+.App .title {
+  font-size: 5em !important;
 }/*# sourceMappingURL=App.css.map */
