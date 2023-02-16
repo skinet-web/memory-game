@@ -1,7 +1,7 @@
 import {React, useEffect, useState}  from "react";
 import data from './Data.js';
 
-function Card() {
+function Card(props) {
 
     const [cardInfo, setCardInfo] = useState([])
     const [currentScore, setCurrentScore] = useState(0);
@@ -70,7 +70,7 @@ function Card() {
                     checkWin()
                 }}>
                     <div>
-                        <img src={card.image} width="500" height="600"/>
+                        <img src={card.image}/>
                     </div>
                     <h1>{card.name}</h1>
                 </div>
