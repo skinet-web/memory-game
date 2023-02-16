@@ -1,0 +1,21 @@
+.container-Card {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    // border: 2px red solid;
+    text-align: center;
+    justify-content: center;
+    
+
+    img {
+        // width: 50%;
+        // height: auto;
+        border-radius: 10px;
+    }
+}
+
+
+.App{
+    display: flex
+}
+

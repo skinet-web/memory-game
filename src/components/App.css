@@ -1,0 +1,14 @@
+.container-Card {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+  text-align: center;
+  justify-content: center;
+}
+.container-Card img {
+  border-radius: 10px;
+}
+
+.App {
+  display: flex;
+}/*# sourceMappingURL=App.css.map */
