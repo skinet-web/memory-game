@@ -5,6 +5,7 @@ This is a toy project from https://theodinproject.com creating Memory Game. The 
 - ReactJS
 - React Hook
 - State management
+- Local Storage
 - CSS (SCSS)
 - HTML
 
