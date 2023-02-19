@@ -1,5 +1,7 @@
 Memory Game
 
+Live: https://memory-game3211.netlify.app/
+
 This is a toy project from https://theodinproject.com creating Memory Game. The design of the project is to showcase the understanding of items below:
 
 - ReactJS
@@ -8,5 +10,3 @@ This is a toy project from https://theodinproject.com creating Memory Game. The 
 - Local Storage
 - CSS (SCSS)
 - HTML
-
-I will put it online soon.
