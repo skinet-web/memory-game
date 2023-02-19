@@ -30,3 +30,24 @@ h1 {
     }
 }
 
+@media only screen and (max-width: 794px){
+
+.container-Card {
+    display: grid;
+    grid-template: 
+            "a b c" 1fr
+            "e f g" 1fr;
+            
+    gap: 30px;
+    // border: 2px red solid;
+    text-align: center;
+    justify-content: center;
+    
+
+    img {
+        width: 100%;
+        height: 50%;
+        border-radius: 10px;
+    }
+}
+}
